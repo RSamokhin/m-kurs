@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
-<div class="menu">
-    <div class="menu-center-block">
-        <header>
-            <button class="abrakadabra">Mute</button>
-            <button>Settings</button>
-        </header>
-        <div class="title">
-            Bubble Wars
-        </div>
-        <main>
-            <button class="first">Play</button>
-            <button class="first">Log in</button>
-            <button class="second">Sign up</button>
-            <button class="second"><p>About</p></button>
-        </main>
-    </div>
-</div>
-</body>
+  <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+      <div class="menu">
+          <div class="menu-center-block">
+              <div class="topmenu">
+                  <div class="topmenu__buttons-container">
+                      <div class="topmenu__button topmenu__button-mute m-unmuted" title="Mute" onclick="togglemute()"></div>
+                      <div class="topmenu__button topmenu__button-settings" title="Settings"></div>
+                  </div>
+              </div>
+              <div class="title">
+                  Bubble Wars
+              </div>
+              <div>
+                <div class="mainmenu__button m-play">Play</div>
+                <div class="mainmenu__button m-login">Log In</div>
+                <div class="mainmenu__button m-signup">Sign Up</div>
+                <div class="mainmenu__button m-about">About</div>
+              </div>
+          </div>
+      </div>
+  </body>
+  <script src="./main.js"></script>
 </html>
