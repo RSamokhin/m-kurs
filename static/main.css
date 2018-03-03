@@ -1,0 +1,124 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0 0 0 0;
+}
+
+.menu{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+
+    background-image: url("assets/bubbles.png");
+    background-color: #00AAEE;
+}
+
+.menu-center-block{
+    background: rgba(0, 170, 238, 0.8);;
+    border-style: none solid none solid;
+    border-color: white;
+}
+@font-face {
+    font-family: 'LuckiestGuy';
+    src: url('assets/LuckiestGuy-Regular.ttf')
+}
+
+.title{
+    text-align: center;
+    font-family: "LuckiestGuy";
+    color: #ffe089;
+    text-shadow: 2px 5px 2px rgba(0,0,0,0.4);
+    font-size: 800%;
+    margin: 70px 40px 50px 40px;
+    /*-moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;*/
+    user-select: none;
+}
+
+.menu-center-block main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button {
+    height: 45px;
+    width: 200px;
+    font-size: 15px;
+
+    border: none;
+    border-radius: 100px;
+    padding: 0 20px;
+    margin-top: 10px;
+
+    color: #002795;
+    cursor: pointer;
+
+    /*text-align: center;
+    font-family: "LuckiestGuy";
+    color: #ffe089;
+    text-shadow: 2px 5px 2px rgba(0,0,0,0.4);
+    font-size: 400%;
+    user-select: none;*/
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #002795;
+}
+
+button.first {
+    background: rgba(0, 39, 149, 0.29);
+}
+
+button.first:hover {
+    background-color: #1a5295;
+}
+
+button.second {
+    background-color: transparent;
+}
+
+button.second:hover {
+    background-color: #2f958e;
+}
+
+label {
+    width: 40px;
+    height: 40px;
+    display: block;
+    position: relative;
+}
+
+input[type="checkbox"] + span {
+    position: absolute;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background-image: url(assets/muted.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked + span  	{
+    background-image: url(assets/in-love.png);;
+}
+
+/*button.abrakadabra{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: .5em 2em;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #FDBE33 #000 #D77206;
+    border-radius: 6px;
+    background: linear-gradient(#F3AE0F, #E38916) #E38916;
+    transition: 0.2s;
+}*/
